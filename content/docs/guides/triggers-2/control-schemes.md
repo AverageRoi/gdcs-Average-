@@ -25,23 +25,30 @@ seo:
 ---
 {{< callout context="caution" title="Incomplete guide" icon="outline/info-circle" >}}
 
+
+
 This guide is missing the following:
 - Examples
+
+
 
 
 {{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
-- While Geometry Dash offers a limited number of usable keys, it is possible to add more actions to your level using various trigger setups.
-- However, you should always keep in mind that your control scheme must feel intuitive and easy to learn.
-
+* While Geometry Dash only offers so many usable keys, you can add more actions to your level using various trigger setups.
+* Control schemes should be intuitive to the player, making sure they are easy to learn.
 
 {{< /callout >}}
 
 {{< callout context="tip" title="Note" icon="outline/circle-plus" >}}
 
+
+
 This guide contains interactive images; you can click or hover over elements to learn more about them.
+
+
 
 {{< /callout >}}
 
@@ -51,56 +58,51 @@ This guide contains interactive images; you can click or hover over elements to 
 
 ## Single Player Mode
 
-For mobile, taping on the screen anywhere (except for the pause and practice buttons) will count as a jump.
-The Left/Right buttons are also visible on screen in platformer mode when on mobile.
+For mobile, tapping on the screen anywhere other than the buttons on the UI will count as a jump. Platformer controls will make arrow buttons visible on mobile.
 
 <!-- EXAMPLE HERE -->
 
-## 2-Player mode
+## 2-Player Mode
 
-The 8 keys are spread across the 2 players, with P1 having more options for jumping.
-In mobile the key is also split into 2, with the left side controlling P1 and the right side controlling P2
-The buttons are also visible on screen in platformer mode when on mobile.
+There are 6 available keys spread across both players; each player has Left/Right and Jump inputs. On mobile, this shows as Arrow buttons in a WASD configuration for both players.
 
 <!-- EXAMPLE HERE -->
 
-# 2: Input detection methods
+# 2: Input Detection Methods
 
-Geometry Dash provides various methods to detect when the player presses a button, this section lists them in order from most direct (detects when a key is pressed) to least direct (detects the player changing position, which is caused by them pressing a button)
+Geometry Dash provides various methods to detect button presses. This section lists them in order from most to least direct.
 
 ## Triggers (Event and Touch)
 
-The Event and Touch trigger are the most versatile ways to detect player input, however, they function differently
+The Event and Touch trigger are the most versatile ways to detect player input, however they differ slightly:
 
-| Touch Trigger                                    | Event Trigger                              |
-| ------------------------------------------------ | ------------------------------------------ |
-| detects all keys, even on classic                | only detects jumps on classic              |
-| cannot differentiate between jump, left or right | can detect one specific action or multiple |
-| is not blocked by the options trigger            | is blocked by the options trigger          |
+| Touch Trigger                                    | Event Trigger                    |
+| ------------------------------------------------ | -------------------------------- |
+| detects all keys, even in classic                | only detects jumps in classic    |
+| cannot differentiate between jump, left or right | can detect actions independently |
+| not blocked by the options trigger               | blocked by the options trigger   |
 
-Choosing between using the touch trigger or event trigger mostly comes down to your level’s gamemode; touch is more suited for classic while event is made with platformer in mind, but both can be used depending on your needs.
+Choosing between these triggers mostly comes down to the gamemode in use. Touch is more suited for classic while Event works better for platformer, but both can be used depending on your needs.
 
-## Toggle orb and Toggle block
+## Toggle Orb and Toggle Block
 
-Toggle orb and blocks can only detect jumping, but they allow for a simpler way to activate/deactivate actions.
+Toggle Orbs/blocks can only detect jumps, but allow for a simpler way to toggle actions.
 
-For example, if you want to add a “chest opening” action, you can simply place a toggle block near your chest, this means that the player will only be able to open the chest when near it, making the same action using event or touch triggers would additionally require collision blocks.
+For example, if there is a “chest opening” action, you can place a toggle block near the  chest, and the action will trigger when the player jumps within the block.
 
 ## Collision
 
-Collisions work differently than the other methods, while triggers and toggle blocks exclusively detect a player input, collisions don’t, as they only require the player to be touching them, this makes them the least reliable option of the three, so the player must be boxed to prevent any unexpected movement outside of player inputs.
+Collisions work differently; while Toggle Orbs/Blocks exclusively detect jumps within the block, collisions only require the player to come in contact. This makes them the least reliable option thus far as the player must be boxed to prevent unintended movement.
 
-One of the most popular use cases for collision is making mutually exclusive actions: the player can only go left or right, and never both
+A common usecase for collision is making mutually exclusive actions; the player can go left or right, but never both at once.
 
 {{< callout context="note" title="Note" icon="outline/clipboard-text" >}}
-
-It is possible to also detect collisions when the player interacts with a portal or pad using the event trigger, however this doesn’t provide any actual benefits from using collision blocks
-
+It's also possible to detect collisions with the player and objects like portals or pads using the Event Trigger, although doing this has no visible benefits over Collision Blocks.
 {{< /callout >}}
 
-# 3: Custom player
+# 3: Custom Player
 
-If the normal player controls don’t fit your needs (creating a top down level for example), you might consider creating your own playable character.
+If normal player controls don’t fit your needs (e.g. top-down gameplay), you can create  your own playable character.
 
 We will break this down into individual directional movements, which can be created using one of 2 trigger setups:
 
@@ -116,7 +118,11 @@ We will break this down into individual directional movements, which can be crea
 
 {{< callout context="note" title="Note" icon="outline/clipboard-text" >}}
 
+
+
 You can also replace the move trigger with a rotate trigger.
+
+
 
 {{< /callout >}}
 
@@ -205,7 +211,11 @@ Order doesn’t matter, but the action should be done when all keys are pressed 
 
 {{< callout context="note" title="Note" icon="outline/clipboard-text" >}}
 
+
+
 If instead of having a small delay to press all keys you want to have the keys held all at once, you can change the spawn triggers with event triggers that detect [key] release
+
+
 
 {{< /callout >}}
 
@@ -232,7 +242,11 @@ This is for when you need an ordered sequence of keys to activate your action an
 
 {{< callout context="note" title="Note" icon="outline/clipboard-text" >}}
 
+
+
 if instead of having a small delay for your key sequence you want to have keys held in a specific order, you can change the spawn triggers with event triggers that detect [key] release
+
+
 
 {{< /callout >}}
 
@@ -341,8 +355,12 @@ Now, you can add a room or menu to the start of your level where the player can 
 
 {{< callout context="note" title="Notes" icon="outline/clipboard-text" >}}
 
+
+
 * make sure to add a timer or a special key to cancel the key selection, for example, the event triggers could detect [key] release, the player can hold a key for 1s to cancel this action
 * cursors and buttons are interchangeable; you can move buttons to the cursors and vice-versa
+
+
 
 
 {{< /callout >}}
