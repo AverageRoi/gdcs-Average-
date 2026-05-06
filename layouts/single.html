@@ -28,45 +28,42 @@
 				</nav>
 			{{ end }}
 
+			<h1>{{ partial "main/title.html" .Title }}</h1>
+
 			{{- if .Params.tags -}}
-				<div style="margin-bottom: -1.2rem; margin-top: 2rem;">
+				<div style="align-content:center; margin-top: 0.65rem; margin-bottom: 0.65rem;">
 					{{- partial "main/tags.html" . -}}
 				</div>
 			{{- end -}}
-
-			<h1>{{ partial "main/title.html" .Title }}</h1>
 
 			{{ with .Description }}
 				<div >{{ . | markdownify}}</div>
 			{{ end }}
 
 			{{- "** **" | .Page.RenderString -}}
-
-			<div class="d-flex flex-column flex-md-row justify-content-between" >
-
+			<div class="d-flex flex-md-row justify-content-between" >
 				<div>
 					{{ partial "main/credits-section.html" . }}
 				</div>
 
+				{{ if site.Params.doks.editPage -}}
+					<div>
+						{{ partial "main/edit-page.html" . }}
+					</div>
+				{{ end -}}
+			</div>
+
+			<div class="d-flex flex-md-row justify-content-between">
 				<div>
 					{{ partial "main/reading-time.html" . }}
 				</div>
 
-			</div>
-
-			<div class="d-flex flex-column flex-md-row justify-content-between" >
-				{{ if site.Params.doks.editPage -}}
-					<div style="padding-top: 0.5rem;">
-						{{ partial "main/edit-page.html" . }}
-					</div>
-
-				{{ end -}}
-
-				<div style="padding-top: 0.5rem;">
+				<div>
 					{{ partial "main/page-issue.html" . }}
 				</div>
-
 			</div>
+
+			{{- "** **" | .Page.RenderString -}}
 
 			<!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
 			{{ if ne .Params.toc false -}}
