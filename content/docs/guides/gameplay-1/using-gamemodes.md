@@ -125,7 +125,7 @@ This is the most snappy air gamemode, apart from Wave which is a whole other sto
 
 * Hold to fly diagonally up, release to fly diagonally down
 * Has air control
-* Travels in a straight 45° line when normal size, and roughly 63.43° in mini size.
+* Travels in a straight 45° line in normal size, and roughly 63.43° in mini size.
 * Dies when hitting everything except for the camera border grounds
 * Nothing changes as speed increases
 
