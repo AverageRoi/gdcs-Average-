@@ -155,7 +155,7 @@ The Robot functions similarly to the Cube, but uses holds instead. Due to this i
 
 **Pros & Cons**
 
-* Floatier, less snappy
+* Floatier, and less snappy
 * Harder to use in high-cps parts
 * Good at emphasizing long clicks
 * Micro-clicks (releasing shortly after holding) can be frustrating
