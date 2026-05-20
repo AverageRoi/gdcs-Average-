@@ -66,16 +66,22 @@ With fades, timing is a huge factor. Do you want the fade to be short, resemblin
 
 Fades provide the most gentle tone in transitions which makes them an excellent combination with slow-paced segments in the song. It’s simple to use, albeit slightly more challenging than hard cuts because duration is a big factor. However, I'd be careful if your fade transitions rely on opacity especially when the objects overlap.
 
-* Key message: delay
+{{< callout context="note" title="Key Message: Delay." icon="outline/info-circle" >}}
 
-Factors to consider:
+* Fades need time to work. They don't work well with fast, abrupt transitions, but if you need a smooth change they are often the simplest option.
+
+{{< /callout >}}
+
+{{< callout context="note" title="Factors to Consider:" icon="outline/info-circle" >}}
 
 1. Frequency of fades
 2. Time taken to complete the transition
 
+{{< /callout >}}
+
 ## Example
 
-[Stargaze](https://youtu.be/sgbl2hnOS5A?si=dz21Er3w7ciB6Uns)  by Miracatsy & GDLudvigg introduces the level with a black overlay that slowly fades out showing the scene. This fits excellently because the song hasn’t started yet and it gives expectations to the relaxing atmosphere in the upcoming parts. Arguably, using a fading black screen for this case provides a solid narrative detail.
+[Stargaze](https://youtu.be/sgbl2hnOS5A?si=dz21Er3w7ciB6Uns) by Miracatsy & GDLudvigg introduces the level with a black overlay that slowly fades out showing the scene. This fits excellently because the song hasn’t started yet and it gives expectations to the relaxing atmosphere in the upcoming parts. Arguably, using a fading black screen for this case provides a solid narrative detail.
 
 [Stereo Madness](https://youtu.be/hI8AoSVkScA?si=-01FYyVFl8GWmJ_d&t=24) also does a fade before entering the first ship section as a form of anticipation. It goes to show how these transitions are made in older updates considering its limitations.
 
