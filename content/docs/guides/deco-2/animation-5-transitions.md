@@ -13,11 +13,13 @@ tags:
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
+
 - A part transition within a level connects two separate parts together. How these parts connect can make or break a level's selling point depending on its execution.
 - There are many ways to choose the “right” transition for your parts which can be boiled down to 5 categories: Hard Cut, Fade, Screen Wipe, Match Cut, and Continuous.
 - Match cuts are subdivided to 3 more categories depending on which element you're putting more attention to: Shape, Momentum, and Color.
 - Each category communicates specific types of change, atmosphere, emotion, and context.
 - If you are unsure about which combination of transitions is appropriate for your level, reconsult your level’s vision to flesh out tangible details.
+
 
 {{< /callout >}}
 
@@ -37,22 +39,31 @@ Most of the simplest trigger setups come from hard cut transitions; you might us
 
 {{< callout context="note" title="Key Message: Snappiness." icon="outline/info-circle" >}}
 
+
 * Like a snap of a finger, you’re not meant to dwell on a hard cut for that long unless you’re doing glitches. Otherwise, you’re trying to communicate a loading state or a part being off.
+
 
 {{< /callout >}}
 
 {{< callout context="note" title="Factors to Consider:" icon="outline/info-circle" >}}
 
+
 1. Frequency of hard cuts
 
-{{< /callout >}}
 
+{{< /callout >}}
 
 ## Example
 
 In STARPUNK by Ferdefunky, the cube transitions to the ball part with some minor glitches before an instant hard cut to the next part. The reason why this works is because the song allows this type of transition to happen.
 
 {{< youtube id="-9fKSBc7naQ" start="7" >}}
+
+{{< img-grid >}}
+![](https://drive.google.com/file/d/1iyxqhiJB9y5hbbaHOoy-sCmSpU9nT92l/view?usp=drive_link)
+
+![](https://drive.google.com/file/d/1A-njMiM3hdQqBJGTWAqtAkMcnMvr8KsU/view?usp=drive_link)
+{{< /img-grid >}}
 
 Beachie’s intro for this example has the song starting out with this glitchy voice that speaks backwards, hence used both chromatic glitch and the glitch shader to convey that voice. Once the music starts playing, that's when the colors cut into place starting the level.
 
@@ -68,14 +79,18 @@ Fades provide the most gentle tone in transitions which makes them an excellent 
 
 {{< callout context="note" title="Key Message: Delay." icon="outline/info-circle" >}}
 
+
 * Fades need time to work. They don't work well with fast, abrupt transitions, but if you need a smooth change they are often the simplest option.
+
 
 {{< /callout >}}
 
 {{< callout context="note" title="Factors to Consider:" icon="outline/info-circle" >}}
 
+
 1. Frequency of fades
 2. Time taken to complete the transition
+
 
 {{< /callout >}}
 
