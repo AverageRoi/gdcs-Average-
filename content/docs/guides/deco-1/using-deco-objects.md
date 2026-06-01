@@ -1,13 +1,15 @@
 ---
 draft: false
+authors:
+  - komatic5
 title: Using Deco Objects
 weight: 5010
 date: 2024-04-28T00:00:00.000Z
-description: Objects are the key to all decoration, but learning the fundamental skills for using them can be tricky. This guide explains the basic editor skills you must apply to use objects well in your deco.
-authors:
-  - komatic5
 contributors:
   - komatic5
+description: Objects are the key to all decoration, but learning the fundamental
+  skills for using them can be tricky. This guide explains the basic editor
+  skills you must apply to use objects well in your deco.
 tags:
   - Grade 1
   - Deco Basics
@@ -170,5 +172,7 @@ You can also combine opacity with blending, of course. This makes your blending 
 Finally, note that you can use low opacity copies of objects to create blurred shapes, which is quite time-efficient.
 
 {{< youtube UoXnI6ni1ww >}}
-**Video:** [How To DECORATE in Geometry Dash!](https://youtu.be/3ofZI82lKQ8 >}} si=a5bXL1ilq24c9C_N)
 
+**Video:** 
+
+{{< youtube 3ofZI82lKQ8 >}}
