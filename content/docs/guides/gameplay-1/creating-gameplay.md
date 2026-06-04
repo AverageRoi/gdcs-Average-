@@ -12,6 +12,11 @@ description: This guide explains the process of creating gameplay. Topics of dis
 tags:
   - Grade 1
   - Gameplay Basics
+seo:
+  title: How to Make a Geometry Dash Layout
+  description: This explains the process of making gameplay in Geometry Dash for beginner creators.
+  canonical: ""
+  noindex: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 

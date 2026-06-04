@@ -12,6 +12,11 @@ contributors:
 tags:
   - Grade 0
   - Your Mindset
+seo:
+  title: How to Get Inspired for Geometry Dash
+  description: A short guide with ways to get indpiration for your Geometry Dash levels.
+  canonical: ""
+  noindex: false
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

@@ -14,6 +14,11 @@ contributors:
 tags:
   - Grade 1
   - Gameplay Triggers
+seo:
+  title: How to Use Camera Triggers in Geometry Dash
+  description: A short guide to camera triggers - Zoom, Static, Offset, Gameplay Offset, Rotate, Edge, Mode, Guide, and Shake.
+  canonical: ""
+  noindex: false
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

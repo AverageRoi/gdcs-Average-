@@ -13,6 +13,11 @@ contributors:
 tags:
   - Grade 0
   - Creating Process
+seo:
+  title: How to Get Ideas for Geometry Dash
+  description: A short guide with four ways to make ideas for Geometry Dash levels.
+  canonical: ""
+  noindex: false
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

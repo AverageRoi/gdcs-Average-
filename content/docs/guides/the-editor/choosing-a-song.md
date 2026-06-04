@@ -17,7 +17,7 @@ tags:
   - Grade 0
   - The Editor
 seo:
-  title: How to Manage Songs in Geometry Dash
+  title: How to Choose a Song in Geometry Dash
   description: A short guide to choosing a song for your Geometry Dash level, using Newgrounds, the Music Library, and NONG file replacement.
   canonical: ""
   noindex: false

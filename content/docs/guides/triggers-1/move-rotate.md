@@ -11,6 +11,11 @@ contributors:
 tags:
   - Grade 1
   - Transformation Triggers
+seo:
+  title: How to Use the Move and Rotate Triggers
+  description: Explains the Move and Rotate triggers in Geometry Dash.
+  canonical: ""
+  noindex: false
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

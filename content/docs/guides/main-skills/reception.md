@@ -13,6 +13,11 @@ description: Why do some levels receive mass reception and critical acclaim whil
 tags:
   - Grade 0
   - Community Work
+seo:
+  title: How to Make a Popular Level in Geometry Dash
+  description: How to get good reception for your Geometry Dash levels.
+  canonical: ""
+  noindex: false
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 

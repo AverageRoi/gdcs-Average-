@@ -12,7 +12,7 @@ tags:
   - Grade 0
   - The Editor
 seo:
-  title: "Geometry Dash: Placing Objects"
+  title: Geometry Dash Editor Guide
   description: Part 1 of how to use Geometry Dash's level editor, going over how to navigate the editor, and the build, edit, and delete tabs.
   canonical: ""
   noindex: false

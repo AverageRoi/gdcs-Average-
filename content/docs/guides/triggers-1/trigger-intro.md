@@ -12,6 +12,11 @@ contributors:
 tags:
   - Grade 1
   - Basic Triggers
+seo:
+  title: How to Use Geometry Dash Triggers
+  description: The basics of what triggers are, how to set them up, and when to use them.
+  canonical: ""
+  noindex: false
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

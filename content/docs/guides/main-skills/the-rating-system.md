@@ -12,6 +12,11 @@ contributors:
 tags:
   - Grade 0
   - Community Work
+seo:
+  title: How to Get a Rated Level in Geometry Dash
+  description: A short guide that explains the Geometry Dash rating system and how to get creator points / sends from GD Moderators.
+  canonical: ""
+  noindex: false
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}

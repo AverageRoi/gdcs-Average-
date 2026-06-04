@@ -13,7 +13,7 @@ tags:
   - Grade 0
   - The Editor
 seo:
-  title: "Geometry Dash: Organizing Objects"
+  title: Geometry Dash Editor Guide (Part 3)
   description: Part 3 of how to use Geometry Dash's level editor, going over editor layers, select filter, and select all.
   canonical: ""
   noindex: false

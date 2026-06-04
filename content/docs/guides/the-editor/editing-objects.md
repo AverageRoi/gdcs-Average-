@@ -17,7 +17,7 @@ tags:
   - Grade 0
   - The Editor
 seo:
-  title: "Geometry Dash: Editing Objects"
+  title: Geometry Dash Editor Guide (Part 2)
   description: Part 2 of how to use Geometry Dash's level editor, going over Z layer and Z Order, tilesets, groups, the Extra tabs, and Edit Object.
   canonical: ""
   noindex: false
